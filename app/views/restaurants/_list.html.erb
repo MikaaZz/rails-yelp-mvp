@@ -1,0 +1,6 @@
+<div id="restaurants" class='card pt-3'>
+  <% restaurants.each do |restaurant| %>
+    <%= render restaurant %>
+      <%= link_to "Show this restaurant", restaurant, class: 'btn btn-primary m-3 text-white text-decoration-none'%>
+  <% end %>
+</div>
